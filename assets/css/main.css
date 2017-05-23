@@ -12,9 +12,27 @@ Colors:
 	font-family: 'Raleway', sans-serif;
 
 }
-.nav{
-	background-color: #E54E79;
-	position:fixed;
-	width: 1300px;
+ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;;
 	
+}
+ul li {
+	display: inline-block;
+	float:right;
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#img{
+	margin-left: 232px;
+    margin-top: 13px;
 }
