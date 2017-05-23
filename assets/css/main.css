@@ -212,3 +212,10 @@ input:focus ~ .highlight {
     font-size: 36px;
     top: 21px;
 }
+#fondo{
+	width: 70%;
+	height: 50%;
+	background-color:#EDE9E2; 
+	left:50px;
+	top:20px;
+}
