@@ -54,7 +54,7 @@ ul li a{
     width: 510px;
     height: 400px;
     position: absolute;
-    left: 855px;
+    left: 839px;
     top: 211px;
 }
 #turn{
@@ -80,7 +80,7 @@ input{
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
-  width:300px;
+  width:427px;
   border:none;
   border-bottom:1px solid #757575;
   background-color:#EDE9E2;;
@@ -118,7 +118,6 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#5264AE; 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
@@ -165,4 +164,35 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
 	from { background:#5264AE; }
   to 	{ width:0; background:transparent; }
+}
+#boton{
+	background-color: #E56385;
+    border-radius: 10px;
+    color: #EDE9E2;
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top: 204px;
+    left: 48px;
+    font-size: 15px;
+}
+#applied{
+	position: absolute;
+    top: 263px;
+    left: 50px;
+}
+#earn{
+	position: absolute;
+    top: 307px;
+    left: 50px;
+}
+.play{
+	background-color: #00B2A9;
+	background-size: 100%;
+    height: 100vh;
+}
+.footer{
+	background-color: #75726C;
+	width: 100%;
+	height: 20%;
 }
