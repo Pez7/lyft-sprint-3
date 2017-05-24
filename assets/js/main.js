@@ -1,6 +1,6 @@
 var btnFono = document.getElementById("boton");
 var start = document.getElementById("start");
-var play = document.getElementsByClassName("play");
+var play = document.getElementsByClassName("play")[0];
 var fondo = document.getElementById("fondo");
 
 btnFono.addEventListener("click",function(){
@@ -16,5 +16,10 @@ btnFono.addEventListener("click",function(){
 
 start.addEventListener("click", function(){
 	play.removeChild(fondo);
+	
+	var newCaja = document.createElement("div");
+	newCaja.setAttribute("id","juego");
+
+	play.appendChild(newCaja);
 
 });
