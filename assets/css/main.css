@@ -252,16 +252,30 @@ footer{
     width: 100%;
     color:#EDE9E2;
 }
+footer h2{
+	text-align: center;
+}
 .face{
-	position: relative;
-    left: 1%;
+	width: 59%;
+    position: relative;
+    padding-left: 0%;
+    margin-left: 14%;
+    left: -13%;
     color: blue;
     font-size: 41px;
 }
 .twit{
-	position: relative;
-    left: 1%;
-    bottom: 8px;
-    color: #0AB9F2;
+	width: 59%;
+    position: relative;
+    padding-left: 0%;
+    margin-left: 14%;
+    left: -13%;
+    color:#0AB9F2;
     font-size: 41px;
 }
+#text{
+	position: absolute;
+    left: 78%;
+    top: 86%;
+}
+	
