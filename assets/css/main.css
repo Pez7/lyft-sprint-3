@@ -12,6 +12,9 @@ Colors:
 	font-family: 'Raleway', sans-serif;
 
 }
+header{
+	width: 100%
+}
 nav{
 	position:fixed;
 	width: 100%;
@@ -89,28 +92,6 @@ input{
 input:focus{ 
 	outline:none; 
 }
-
-/* LABEL ======================================= */
-label 				 {
-  color:#999; 
-  font-size:18px;
-  font-weight:normal;
-  position:absolute;
-  pointer-events:none;
-  left:5px;
-  top:10px;
-  transition:0.2s ease all; 
-  -moz-transition:0.2s ease all; 
-  -webkit-transition:0.2s ease all;
-}
-
-/* active state */
-input:focus ~ label, input:valid ~ label 		{
-  top:-20px;
-  font-size:14px;
-  color:#75726C;
-}
-
 /* BOTTOM BARS ================================= */
 .bar 	{ position:relative; display:block; width:300px; }
 .bar:before, .bar:after 	{
@@ -192,11 +173,6 @@ input:focus ~ .highlight {
 	background-size: 100%;
     height: 100vh;
 }
-.footer{
-	background-color: #75726C;
-	width: 100%;
-	height: 20%;
-}
 #fly{
 	background-color: #EDE9E2;
     width: 100%;
@@ -224,9 +200,68 @@ input:focus ~ .highlight {
 	background-color: #00B2A9;
     border-radius: 10px;
     color: #EDE9E2;
-    width: 352px;
+    width: 89%;
     height: 45px;
     top: 220px;
+    left: 6%;
     position: absolute;
-
+}
+.cordx input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 432px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: #EDE9E2;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+.cordy input {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:432px;
+  border:none;
+  border-bottom:1px solid #757575;
+  background-color:#EDE9E2;
+  position: absolute;
+  top: 38%;
+  left: 55%;
+}
+.auto1{
+	position: absolute;
+    top: 38%;
+    left: 7%;
+    font-size: 30px;
+    color:#75726C;
+}
+.auto2{
+	position: absolute;
+    top: 38%;
+    left: 51%;
+    font-size: 30px;
+    color:#75726C;
+}
+footer{
+	background-color: #75726C;
+    position: absolute;
+    top: 1205px;
+    height: 137px;
+    width: 100%;
+    color:#EDE9E2;
+}
+.face{
+	position: relative;
+    left: 1%;
+    color: blue;
+    font-size: 41px;
+}
+.twit{
+	position: relative;
+    left: 1%;
+    bottom: 8px;
+    color: #0AB9F2;
+    font-size: 41px;
 }
