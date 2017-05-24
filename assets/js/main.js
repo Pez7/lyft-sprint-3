@@ -1,4 +1,7 @@
 var btnFono = document.getElementById("boton");
+var start = document.getElementById("start");
+var play = document.getElementsByClassName("play");
+var fondo = document.getElementById("fondo");
 
 btnFono.addEventListener("click",function(){
 	var fono = document.getElementById("fono").value;
@@ -10,4 +13,8 @@ btnFono.addEventListener("click",function(){
 
 	fono = " ";
 });
-;
+
+start.addEventListener("click", function(){
+	play.removeChild(fondo);
+
+});
