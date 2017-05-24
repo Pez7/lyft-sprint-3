@@ -188,7 +188,7 @@ input:focus ~ .highlight {
     font-size: 36px;
     top: 21px;
 }
-#fondo, #juego{
+#fondo, #juego, #gris{
 	width: 84%;
     height: 50%;
     background-color: #EDE9E2;
@@ -279,10 +279,17 @@ footer h2{
     top: 86%;
 }
 #juego{
-	
 	height: 361px;
     width: 573px;
     top: 98px;
     left: 29%;
 }
-	
+#gris{
+	background-color: #75726C;
+    width: 91%;
+    height: 85%;
+    left: 28px;
+    top: 28px;
+    position: relative;
+}
+
