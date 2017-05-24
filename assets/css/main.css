@@ -292,4 +292,15 @@ footer h2{
     top: 28px;
     position: relative;
 }
+#context{
+	width: 91%;
+    height: 85%;
+}
+#auto{
+	width: 11%;
+    height: 32%;
+    left: 52%;
+    top: 82px;
+    position: relative;
+}
 
